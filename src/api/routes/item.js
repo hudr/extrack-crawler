@@ -9,7 +9,6 @@ router.post('/item', async (req, res) => {
 
   switch (name.toLowerCase()) {
     case 'beer':
-      s
       try {
         // Sonda
         let beertoList = []
